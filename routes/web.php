@@ -1,6 +1,7 @@
 <?php
 
-use App\Models\Writer;
+use App\Http\Controllers\MenuController;
+use App\Models\Menu;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,36 +20,14 @@ Route::get('/', function () {
 
 Route::view('/index', 'index',
 [   
-    "pagetitle" => "About Us",
     "maintitle" => "Sago Mango Company Profile"
 ]);
 
-Route::view('/menu', 'menu',
-[   
-    "pagetitle" => "Home",
-    "maintitle" => "Menu List",
-    "writers" => Writer::index()
-]);
+Route::get('/menu', [MenuController::class, 'index']);
 
-Route::get('writer/{id}', function($id){
-    return view('show', [
-        'pagetitle' => 'Writer',
-        'maintitle' => 'Menu Details',
-        'writer' => Writer::showWriter($id)
-    ]);
-});
+Route::get('menu/{id}', [MenuController::class, 'show']);
 
 Route::view('/contactus', 'contact',
 [
-    "pagetitle" => "Contact",
-    "maintitle" => "Contact : hazelanak1@gmail.com "
+    "maintitle" => "Contact Us"
 ]);
-
-
-// Route::view('/writer', 'index',
-// [
-//     "pagetitle" => "Home",
-//     "maintitle" => "Writers in My Library",
-//     "writers" => Writer::index()
-
-// ]);

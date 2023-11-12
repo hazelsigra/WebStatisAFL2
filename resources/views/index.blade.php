@@ -33,7 +33,7 @@
 </div>
 
 <div class="text-center">
-    <button href="/menu"type="button" class="btn btn-secondary btn-lg">See product  <a href="/menu">--></a></button>
+    <button type="button" class="btn btn-secondary btn-lg">See product  <a href="/menu">--></a></button>
 </div>
 
 @endsection

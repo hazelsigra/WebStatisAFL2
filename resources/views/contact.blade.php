@@ -1,7 +1,7 @@
 @extends('Layout.MainLayout')
 
 @section('container')
-<h1>{{$pagetitle}}</h1>
+<h1>{{$maintitle}}</h1>
 <div class="row">
     <div class="col-md-4 py-5">
         <b>Sago Mango Headquarters</b><br>
@@ -21,28 +21,28 @@
         <form method="POST" action="" class="w-100 mx-auto">
             <div class="form-row">
                 <div class="form-group col-md-12">
-                    <label for="inputUniName">Enter your name</label>
-                    <input type="text" class="form-control" name="inputUniName">
+                    <label for="inputName">Enter your name</label>
+                    <input type="text" class="form-control" name="inputName">
                 </div>
             </div>
             <div class="form-row">
                 <div class="form-group col-md-12">
-                    <label for="inputAddress">Email</label>
-                    <input type="text" class="form-control" name="inputAddress">
+                    <label for="inputEmail">Email</label>
+                    <input type="text" class="form-control" name="inputEmail">
                 </div>
             </div>
             <div class="form-row">
                 <div class="form-group col-md-12">
-                    <label for="inputCity">Phone</label>
-                    <input type="text" class="form-control" name="inputCity">
-                </div>
-                <div class="form-group col-md-12">
-                    <label for="inputPhone">Message</label>
+                    <label for="inputPhone">Phone</label>
                     <input type="text" class="form-control" name="inputPhone">
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="inputMessage">Message</label>
+                    <input type="text" class="form-control" name="inputMessage">
                 </div>
             </div>
             <br>
-            <button name="button_register" type="submit" class="btn btn-primary">Send Message</button>
+            <button name="button_send" type="submit" class="btn btn-primary">Send Message</button>
         </form>
     </div>
 </div>

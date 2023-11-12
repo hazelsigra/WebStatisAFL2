@@ -1,6 +1,5 @@
 @extends('Layout.MainLayout')
 
-@section('title', $maintitle)
 @section('container')
 
 <div class="container">
@@ -16,13 +15,13 @@
     </thead>
 
     <tbody>
-        @foreach ($writers as $writer)
+        @foreach ($menus as $menu)
             <tr>
-                <td><a href="/writer/{{ $writer['id'] }}">{{ $writer['name'] }}</a></td>
-                <td>{{ $writer['contact']}}</td>
-                <td>{{ $writer['country']}}</td>
+                <td><a href="/menu/{{ $menu['id'] }}">{{ $menu['name'] }}</a></td>
+                <td>{{ $menu['type']}}</td>
+                <td>{{ $menu['description']}}</td>
                 <td>
-                    <img src="{{ $writer['photo']}}" style="width: 100px">
+                    <img src="{{ $menu['photo']}}" style="width: 100px">
                 </td>
 
             </tr>
