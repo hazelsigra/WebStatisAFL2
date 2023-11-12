@@ -19,8 +19,8 @@
         @foreach ($writers as $writer)
             <tr>
                 <td><a href="/writer/{{ $writer['id'] }}">{{ $writer['name'] }}</a></td>
-                <td>{{ $writer['country']}}</td>
                 <td>{{ $writer['contact']}}</td>
+                <td>{{ $writer['country']}}</td>
                 <td>
                     <img src="{{ $writer['photo']}}" style="width: 100px">
                 </td>

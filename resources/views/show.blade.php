@@ -6,6 +6,6 @@
     <img src="../{{ $writer['photo']}}" style="width: 250px">
 
     <h2>Name : {{ $writer['name'] }}</h2>
-    <h3>Contact : {{ $writer['contact'] }}</h3>
+    <h3>Description : {{ $writer['country'] }}</h3>
 
 @endsection
