@@ -29,36 +29,20 @@
             @endif
           @endguest
           @auth
-            <div><button class="btn btn-outline-primary mx-2"><a class="text-decoration-none text-reset" href="/cart">Your Cart</a></button></div>
+            <div>
+              <button class="btn btn-outline-primary mx-2">
+                <a class="text-decoration-none text-reset" href="/cart">
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                  Your Cart
+                </a>
+              </button>
+            </div>
             <form method="POST" action="/logout">
                 @csrf
                 <button class="btn btn-outline-secondary" type="submit">Logout</button>
             </form>
           @endauth
         </div>
-      </div>
-      <div class="d-flex">
-        @guest
-          @if(request()->is('login'))
-          <div><button class="btn btn-outline-primary"><a class="text-decoration-none text-reset" href="/register">Register</a></button></div>
-          @else
-          <div><button class="btn btn-outline-primary"><a class="text-decoration-none text-reset" href="/login">Login</a></button></div>
-          @endif
-        @endguest
-        @auth
-          <div>
-            <button class="btn btn-outline-primary mx-2">
-              <a class="text-decoration-none text-reset" href="/cart">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                Your Cart
-              </a>
-            </button>
-          </div>
-          <form method="POST" action="/logout">
-              @csrf
-              <button class="btn btn-outline-secondary" type="submit">Logout</button>
-          </form>
-        @endauth
       </div>
     </div>
   </nav>
