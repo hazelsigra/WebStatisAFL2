@@ -48,11 +48,10 @@
         @auth
           <div><button class="btn btn-outline-primary mx-2"><a class="text-decoration-none text-reset" href="/cart">Your Cart</a></button></div>
           <form method="POST" action="/logout">
-            @csrf
-            <button class="btn btn-outline-secondary" type="submit">Logout</button>
+              @csrf
+              <button class="btn btn-outline-secondary" type="submit">Logout</button>
           </form>
-          @endauth
-        </div>
+        @endauth
       </div>
     </div>
   </nav>

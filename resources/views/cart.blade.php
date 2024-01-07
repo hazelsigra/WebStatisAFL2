@@ -4,7 +4,7 @@
     <div class="container">
         @error('delete_cart')
             @if (str_contains($message, 'ok'))
-                <div class="alert alert-success" role="alert" data-bs-dismiss="alert">Yeay! Item successfully removed. 
+                <div class="alert alert-success" role="alert">Yeay! Item successfully removed. 
                     <a href="/cart/delete/{{ implode('+', session('cart_id')) }}/undo" class="alert-link"><b>Undo</b></a>
                 </div>
             @else

@@ -18,7 +18,11 @@
             <h2>Description : {{ $menu['description'] }}</h2>        
         </div>
     </div>
+    <div class="row">
+        <div class="col w-100">
+            <button class="btn btn-lg btn-outline-primary"><a href="/cart/set/{{ $menu['id'] }}" class="text-decoration-none text-reset">Add to cart</a></button>
+        </div>
+    </div>
 </div>
 
-    <button class="btn btn-lg btn-outline-primary"><a href="/cart/set/{{ $menu['id'] }}" class="text-decoration-none text-reset">Add to cart</a></button>
 @endsection
