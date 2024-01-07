@@ -46,7 +46,7 @@
             alertList.forEach(function (alert) {
                 alert.remove()
             })
-        }, 5000);
+        }, 3000);
 
         let checkedCarts = [];
         const bulkDeleteBtn = document.querySelector('#bulk-delete')
