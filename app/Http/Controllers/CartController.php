@@ -43,6 +43,7 @@ class CartController extends Controller
 
     public function BulkDeleteLog(string $cart_ids) {
         try {
+            // parse string into array
             $cart_ids = explode('+', $cart_ids);
             Cart::destroy($cart_ids);
             return redirect()->back()->withErrors(["delete_cart" => "ok"])->with("cart_id", $cart_ids);
@@ -53,6 +54,8 @@ class CartController extends Controller
 
     public function RestoreDeletedLog(string $cart_ids) {
         try {
+            // dd($cart_ids);
+            // parse string into array
             $cart_ids = explode('+', $cart_ids);
             $willRestoredLog = Cart::withTrashed()->whereIn('id', $cart_ids)->get();
             foreach ($willRestoredLog as $log) {
