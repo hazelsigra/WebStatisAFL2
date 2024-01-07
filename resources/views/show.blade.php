@@ -1,11 +1,17 @@
 @extends('Layout.MainLayout')
 
 @section('container')
-    <h1>{{$maintitle}} </h1>
 
-    <img src="../{{ $menu['photo']}}" style="width: 250px">
-
-    <h2>Name : {{ $menu['name'] }}</h2>
-    <h3>Description : {{ $menu['description'] }}</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="../images/{{ $menu['photo']}}">
+        </div>
+        <div class="col-md-6 px-5">
+            <h2>Name : {{ $menu['name'] }}</h2>
+            <h2>Description : {{ $menu['description'] }}</h2>        
+        </div>
+    </div>
+</div>
 
 @endsection

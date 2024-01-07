@@ -3,32 +3,26 @@
 @section('container')
 
 <div class="container">
-    <h1>{{$maintitle}} </h1>
-<table class="table table-striped">
-    <thead>  
-    <tr>
-        <th scope="col">Name</th>
-        <th scope="col">Type</th>
-        <th scope="col">Description</th>
-        <th scope="col">Photo</th>
-    </tr>
-    </thead>
-
-    <tbody>
+    <div class="text-center">
+        <h4>KAWOKU</h4>
+        <p>Kopi asli dari Bengkulu, Indonesia</p>
+      </div>
+    <div class="row">
         @foreach ($menus as $menu)
-            <tr>
-                <td><a href="/menu/{{ $menu['id'] }}">{{ $menu['name'] }}</a></td>
-                <td>{{ $menu['type']}}</td>
-                <td>{{ $menu['description']}}</td>
-                <td>
-                    <img src="{{ $menu['photo']}}" style="width: 100px">
-                </td>
-
-            </tr>
+          <div class="col-md-3 my-3">
+            <div class="card shadow">
+              <div class="wrapper-card-blog">
+                <img src="/images/{{ $menu['photo']}}" class="img-card-blog">
+              </div>
+              <div class="p-3">
+                <a href="/menu/{{ $menu['id'] }}" class="text-decoration-none"><h5>{{ $menu['name'] }}</h5></a>
+                <p>{{ $menu['description']}}
+                  <a href="/menu/{{ $menu['id'] }}">Selengkapnya &rightarrow;</a>
+                </p>
+              </div>
+            </div>
+          </div>
         @endforeach
-       
-    </tbody>
-
-</table>
+      </div>
 </div>
 @endsection

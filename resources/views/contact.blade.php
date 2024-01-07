@@ -1,23 +1,28 @@
 @extends('Layout.MainLayout')
 
 @section('container')
-<h1>{{$maintitle}}</h1>
+
+<div class="text-center">
+    <h2><b>CONTACT US</b></h2>
+    <p>Connect with Us.</p>
+</div>
+
 <div class="row">
-    <div class="col-md-4 py-5">
-        <b>Sago Mango Headquarters</b><br>
+    <div class="col-md-4 py-3">
+        <i class="fas fa-map-marker"></i><b> Sago Mango Headquarters</b><br>
         <p>123 Tropical Avenue, <br>
             Mango City, Tropica</p><br>
             
-        <b>For inquiries, please contact:</b><br>
+        <i class="fas fa-phone"></i><b> For inquiries, please contact:</b><br>
         <p>Email: info@sagomango.com <br>
             Phone: +123 4567 8901</p><br>
             
-        <b>Follow us on social media:</b><br>
-        <p>Facebook: @SagoMangoOfficial <br>
-            Instagram: @SagoMango <br>
-            Twitter: @SagoMangoTweet</p>
+        <i class="fas fa-envelope"></i><b> Follow us on social media:</b><br>
+        <p>Facebook: @kawokucoffee <br>
+            Instagram: @kawokucoffee <br>
+            Twitter: @kawokucoffee</p>
     </div>
-    <div class="col-md-8 py-5">
+    <div class="col-md-8 py-3">
         <form method="POST" action="" class="w-100 mx-auto">
             <div class="form-row">
                 <div class="form-group col-md-12">
@@ -38,11 +43,13 @@
                 </div>
                 <div class="form-group col-md-12">
                     <label for="inputMessage">Message</label>
-                    <input type="text" class="form-control" name="inputMessage">
+                    <textarea name="inputMessage" id="" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+                <div class="text-center mt-3">
+                    <a href="" target="blank"><button name="button_send" type="submit" class="btn btn-primary">Send Message</button></a>
                 </div>
             </div>
             <br>
-            <button name="button_send" type="submit" class="btn btn-primary">Send Message</button>
         </form>
     </div>
 </div>

@@ -15,19 +15,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
-
-Route::view('/index', 'index',
-[   
-    "maintitle" => "Sago Mango Company Profile"
-]);
 
 Route::get('/menu', [MenuController::class, 'index']);
 
-Route::get('menu/{id}', [MenuController::class, 'show']);
+Route::get('menu/{menu}', [MenuController::class, 'show']);
 
-Route::view('/contactus', 'contact',
-[
-    "maintitle" => "Contact Us"
-]);
+Route::get('/aboutus', function () {
+    return view('about');
+});
+
+Route::get('/contactus', function () {
+    return view('contact');
+});
+
+
+
