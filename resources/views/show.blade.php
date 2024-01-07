@@ -1,7 +1,6 @@
 @extends('Layout.MainLayout')
 
 @section('container')
-
 <div class="container">
     @error('insert_cart')
         @if (str_contains($message, 'ok'))
