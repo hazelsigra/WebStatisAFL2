@@ -1,6 +1,6 @@
 <footer class="footer mt-auto py-3 bg-secondary">
     <div class="container text-center">
-      <span class="text-light">Web Development © 2023 Hazel Sigra</span>
+      <span class="text-light">Web Development © 2023 Hazel Sigra & Shaquille Muhammad</span>
     </div>
   </footer>
   

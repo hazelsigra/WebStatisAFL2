@@ -12,32 +12,32 @@
       <div class="carousel-item active">
 
         <div class="wrapper-img-banner">
-          <img class="img-banner" src="/images/carousel1.jpg">
+          <img class="img-banner" src="/images/sae1.jpg">
         </div>
         
         <div class="container">
           <div class="carousel-caption">
             <h1>Know more about us.</h1>
-            <p>KAWOKU is not just a coffee brand; it's a journey for your senses.</p>
+            <p>93 Sae is not just a cookies brand; it's a journey for your senses.</p>
             <p><a class="btn btn-secondary" href="/aboutus">Learn more &rightarrow;</a></p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
         <div class="wrapper-img-banner">
-          <img class="img-banner" src="/images/carousel2.jpg">
+          <img class="img-banner" src="/images/sae2.jpg">
         </div>
         <div class="container">
           <div class="carousel-caption">
             <h1>Take a look at our menus.</h1>
-            <p>Serves high quality coffee with a stunning taste and aroma that tempts the taste buds.</p>
+            <p>Serves high quality cookies with a stunning taste and aroma that tempts the taste buds.</p>
             <p><a class="btn btn-secondary" href="#">Purchase now &rightarrow;</a></p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
         <div class="wrapper-img-banner">
-          <img class="img-banner" src="/images/carousel3.jpg">
+          <img class="img-banner" src="/images/sae3.jpg">
         </div>
         <div class="container">
           <div class="carousel-caption">
@@ -61,17 +61,15 @@
 <div class="container mt-4">
   <div class="text-center">
     <h2><b>ABOUT US</b></h2>
-    <p>Bengkulu's Authentic Coffee</p>
+    <p>Kue Kering 93 Sae</p>
   </div>
   
   <div class="row my-4">
     <div class="col-md-6">
-      <img src="/images/logo1.png" class="img-fluid" width="100%">
+      <img src="/images/logosae.jpg" class="img-fluid" width="100%">
     </div>
     <div class="col-md-6 fs-5">
-      <p>KAWOKU is not just a coffee brand; it's a journey for your senses. We source the finest coffee beans from exotic regions around the world, carefully selecting each batch for its unique flavor profile. Our expert roasters bring out the best in every bean, ensuring a rich and satisfying coffee experience with every sip.</p>
-      <p>At KAWOKU, we believe that coffee is more than just a beverage; it's a ritual, a moment of solace, and an opportunity to savor life's simple pleasures. Our commitment to quality and sustainability is reflected in every aspect of our brand. From the ethically sourced beans to eco-friendly packaging, KAWOKU is dedicated to making a positive impact on both your palate and the planet.</p>
-      <p>Experience the perfect harmony of flavor, aroma, and passion in every cup of KAWOKU coffee. Awaken your senses to a world of indulgence, one sip at a time.</p>
+      <p>93 sae memproduksi kue kering berupa coklat almond, nastar, sagu keju, kastengel dan lain sebagainya. 93 sae sudah berdiri sejak tahun 2005.</p>
     </div>
   </div>
 </div>
@@ -81,7 +79,7 @@
     <div class="text-dark text-center">
       <h4>CONTACT US</h4>
       <p>Tell us more about what u want!</p>
-      <a href="https://wa.me/+6285158039890" class="btn btn-success px-3"><i class="fas fa-phone"></i> Send Message</a>
+      <a href="https://wa.me/+6282340299420" class="btn btn-success px-3"><i class="fas fa-phone"></i> Send Message</a>
     </div>
   </div>
 </div>

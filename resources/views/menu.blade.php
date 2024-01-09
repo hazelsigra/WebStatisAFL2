@@ -4,8 +4,8 @@
 
 <div class="container">
     <div class="text-center">
-        <h4>KAWOKU</h4>
-        <p>Kopi asli dari Bengkulu, Indonesia</p>
+        <h4>93 Sae</h4>
+        <p>Kue Kering dari Surabaya, Indonesia</p>
       </div>
     <div class="row">
         @foreach ($menus as $menu)

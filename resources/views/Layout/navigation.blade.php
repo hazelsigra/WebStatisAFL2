@@ -1,7 +1,7 @@
 <header>
   <nav class="navbar navbar-expand-md navbar-light bg-light shadow">
     <div class="container">
-      <a class="navbar-brand mb-2" href="/"><i class="fa-solid fa-mug-hot fa-2x"></i> KAWOKU</a>
+      <a class="navbar-brand mb-2" href="/">93 Sae</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

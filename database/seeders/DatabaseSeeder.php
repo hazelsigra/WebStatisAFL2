@@ -21,34 +21,42 @@ class DatabaseSeeder extends Seeder
 
         \App\Models\Menu::create([
             'id' => '1',
-            'name' => 'Mango Delight Spread',
-            'type' => 'Dessert',
-            'description' => 'Indulge in the rich, velvety goodness of our Mango Delight Spread. Perfect for spreading on toast, crackers, or as a delightful addition to your favorite desserts.',
-            'photo' => 'images/delightspread.jpeg'
+            'name' => 'Kastangel',
+            'type' => 'Kue Kering',
+            'description' => 'Kastengel adalah kue kering yang memiliki adonan utama berupa terigu, telur, margarin dan parutan keju.',
+            'photo' => 'kastangel.jpg'
         ]);
 
         \App\Models\Menu::create([
             'id' => '2',
-            'name' => 'Sago Mango Smoothies',
-            'type' => 'Drink',
-            'description' => 'Experience the refreshing taste of our Sago Mango Smoothies. Packed with the natural sweetness of ripe mangoes and the unique texture of sago pearls, its a tropical delight in every sip.',
-            'photo' => 'images/smoothies.jpeg'
+            'name' => 'Nastar',
+            'type' => 'Kue Kering',
+            'description' => 'Nastar adalah kue kering dari adonan tepung terigu, mentega, dan telur yang diisi dengan selai nanas, cokelat, maupun rasa lainnya.',
+            'photo' => 'nastar.jpg'
         ]);
 
         \App\Models\Menu::create([
             'id' => '3',
-            'name' => 'Mango Infused Sago Pudding',
-            'type' => 'Dessert',
-            'description' => 'Our Mango Infused Sago Pudding is a harmonious blend of creamy sago pudding infused with the essence of succulent mangoes. A dessert that transports you to the heart of the tropics.',
-            'photo' => 'images/pudding.jpeg'
+            'name' => 'Raisin',
+            'type' => 'Kue Kering',
+            'description' => 'Raisin merupakan jenis kismis yang paling sering kita jumpai diresep makanan pada umumnya.',
+            'photo' => 'raisin.jpg'
         ]);
 
         \App\Models\Menu::create([
             'id' => '4',
-            'name' => 'Mango Sago Ice Cream',
-            'type' => 'Dessert',
-            'description' => 'Treat yourself to the creamy indulgence of our Mango Sago Ice Cream. Each scoop is a celebration of the tropical paradise, making it a favorite for mango lovers of all ages.',
-            'photo' => 'images/icecream.jpeg'
+            'name' => 'Sagu Keju',
+            'type' => 'Kue Kering',
+            'description' => 'Sagu keju adalah kue kering klasik berbahan dasar tepung sagu dan keju.',
+            'photo' => 'sagukeju.jpg'
+        ]);
+
+        \App\Models\Menu::create([
+            'id' => '5',
+            'name' => 'Coklat Almond',
+            'type' => 'Kue Kering',
+            'description' => 'Resep kue kering coklat almon ala rumahan yang sederhana dan lezat dari komunitas memasak terbesar dunia.',
+            'photo' => 'coklatalmond.jpg'
         ]);
     }
 }

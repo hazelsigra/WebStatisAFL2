@@ -9,18 +9,14 @@
 
 <div class="row">
     <div class="col-md-4 py-3">
-        <i class="fas fa-map-marker"></i><b> Sago Mango Headquarters</b><br>
-        <p>123 Tropical Avenue, <br>
-            Mango City, Tropica</p><br>
+        <i class="fas fa-map-marker"></i><b> 93 Sae Headquarters</b><br>
+        <p>Malang, Indonesia</p><br>
             
         <i class="fas fa-phone"></i><b> For inquiries, please contact:</b><br>
-        <p>Email: info@sagomango.com <br>
-            Phone: +123 4567 8901</p><br>
+        <p>Phone: +62 823-4029-9420</p><br>
             
         <i class="fas fa-envelope"></i><b> Follow us on social media:</b><br>
-        <p>Facebook: @kawokucoffee <br>
-            Instagram: @kawokucoffee <br>
-            Twitter: @kawokucoffee</p>
+        <p>Instagram: @kenyangbuncit_</p>
     </div>
     <div class="col-md-8 py-3">
         <form method="POST" action="" class="w-100 mx-auto">

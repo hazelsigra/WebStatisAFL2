@@ -14,34 +14,29 @@ class MenuSeeder extends Seeder
     public function run(): void
     {
         DB::table('menus')->insert([
-            'name' => "Single Origin Delight",
-            'description' => "Pilih biji kopi single origin favoritmu, nikmati keunikan rasa kopi dari daerah tertentu.",
-            'photo' => "kopi1.jpg",
+            'name' => "Kastangel",
+            'description' => "Kastengel adalah kue kering yang memiliki adonan utama berupa terigu, telur, margarin dan parutan keju.",
+            'photo' => "kastangel.jpg",
         ]);
         DB::table('menus')->insert([
-            'name' => "Americano",
-            'description' => "Espresso yang disajikan dengan air.",
-            'photo' => "kopi2.jpeg",
+            'name' => "Nastar",
+            'description' => "Nastar adalah kue kering dari adonan tepung terigu, mentega, dan telur yang diisi dengan selai nanas, cokelat, maupun rasa lainnya.",
+            'photo' => "nastar.jpg",
         ]);
         DB::table('menus')->insert([
-            'name' => "Kawoku Signature Blend",
-            'description' => "Campuran biji kopi pilihan dengan rasa yang seimbang, memiliki sentuhan cokelat dan sedikit fruity.",
-            'photo' => "kopi3.jpg",
+            'name' => "Raisin",
+            'description' => "Raisin merupakan jenis kismis yang paling sering kita jumpai diresep makanan pada umumnya.",
+            'photo' => "raisin.jpg",
         ]);
         DB::table('menus')->insert([
-            'name' => "Homemade Coffee Cake",
-            'description' => "Kue lembut dengan aroma kopi yang menggoda, sempurna untuk dipadukan dengan minuman kopi.",
-            'photo' => "dessert1.jpg",
+            'name' => "Sagu Keju",
+            'description' => "Sagu keju adalah kue kering klasik berbahan dasar tepung sagu dan keju.",
+            'photo' => "sagukeju.jpg",
         ]);
         DB::table('menus')->insert([
-            'name' => "Avocado Toast with Coffee Infusion",
-            'description' => "Roti panggang dengan alpukat segar dan taburan biji kopi, disajikan dengan saus kopi.",
-            'photo' => "dessert2.jpg",
-        ]);
-        DB::table('menus')->insert([
-            'name' => "Coffee Affogato",
-            'description' => "Es krim vanilla yang disiram dengan espresso panas.",
-            'photo' => "dessert3.jpg",
+            'name' => "Coklat Almond",
+            'description' => "Resep kue kering coklat almon ala rumahan yang sederhana dan lezat dari komunitas memasak terbesar dunia.",
+            'photo' => "coklatalmond.jpg",
         ]);
     }
 }
